@@ -36,7 +36,7 @@ class Messages:
         "**Rules & Precautions**\n\n**1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.**",
         
         # Dont remove this ↓ if you respect developer.
-        "***⭕️ My Name :  𝗚𝗗𝗥𝗜𝗩𝗘 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧**\n\n**⭕️ Creater : @Iggie**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)""
+        "**⭕️ My Name :  𝗚𝗗𝗥𝗜𝗩𝗘 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧**\n\n**⭕️ Creater : @Iggie**\n\n**⭕️ Language :** `Python3`\n\n**⭕️ Library :** **Pyrogram Asyncio 0.16.1**\n\n**⭕️ Source Code : 👉** [Click Here](https://t.me/NoSourceCode)"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
