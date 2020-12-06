@@ -23,7 +23,7 @@ class Messages:
 
     HELP_MSG = [
         ".",
-        "**<u>Google Drive Uploader</u>**\n\n**I can upload files from direct link or Telegram Files to your Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct download link or Telegram File.**\n\n**I have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.**",
+        "**Google Drive Uploader**\n\n**I can upload files from direct link or Telegram Files to your Google Drive. All i need is to authenticate me to your Google Drive Account and send a direct download link or Telegram File.**\n\n**I have more features... ! Wanna know about it ? Just walkthrough this tutorial and read the messages carefully.**",
         
         f"**Authenticating Google Drive**\n\n**Send the /{BotCommands.Authorize[0]} commmand and you will receive a URL, visit URL and follow the steps and send the received code here. Use /{BotCommands.Revoke[0]} to revoke your currently logged Google Drive Account.**\n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me. So, Authorization is mandatory!**",
         
@@ -31,7 +31,7 @@ class Messages:
         
         f"**Custom Folder for Upload**\n\n**Want to upload in custom folder or in** **TeamDrive** ?\n**Use /{BotCommands.SetFolder[0]} (Folder URL) to set custom upload folder.\nAll the files are uploaded in the custom folder you provide.**",
         
-        f"**Delete Google Drive Files**\n\n**Delete google drive files. Use /{BotCommands.Delete[0]} (File/Folder URL) to delete file.\nYou can also empty trash files use /{BotCommands.EmptyTrash[0]}\nNote: Files are deleted permanently. This process cannot be undone.\n\n**Copy Google Drive Files**\n\nYes, Clone or Copy Google Drive Files.\nUse /{BotCommands.Clone[0]} (File id / Folder id or URL) to copy Google Drive Files in your Google Drive Account.**",
+        f"**Delete Google Drive Files**\n\n**Delete google drive files. Use /{BotCommands.Delete[0]} (File/Folder URL) to delete file.\nYou can also empty trash files use /{BotCommands.EmptyTrash[0]}\nNote: Files are deleted permanently. This process cannot be undone.\n\nCopy Google Drive Files\n\nYes, Clone or Copy Google Drive Files.\nUse /{BotCommands.Clone[0]} (File id / Folder id or URL) to copy Google Drive Files in your Google Drive Account.**",
         
         "**Rules & Precautions**\n\n**1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.**",
         
