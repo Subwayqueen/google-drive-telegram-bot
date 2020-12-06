@@ -10,9 +10,9 @@ class config:
 
 class BotCommands:
   Download = ['download', 'dl']
-  Authorize = ['auth', 'authorize']
+  Authorize = ['login', 'authorize']
   SetFolder = ['setfolder', 'setfl']
-  Revoke = ['revoke']
+  Revoke = ['logout']
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
   EmptyTrash = ['emptyTrash']
