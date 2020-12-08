@@ -4,7 +4,6 @@ from httplib2 import Http
 from bot import LOGGER
 from bot.config import Messages
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from oauth2client.client import OAuth2WebServerFlow, FlowExchangeError
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -37,6 +36,8 @@ async def _auth(client, message):
               OAUTH_SCOPE,
               redirect_uri=REDIRECT_URI
       )
+      auth_url = flow.step1_get_authorize_url()
+      LOGGER.info(f'AuthURL:{user_id}')
       await message.reply_text(Messages.AUTH_TEXT.format(auth_url), quote=True)
     except Exception as e:
       await message.reply_text(f"**ERROR:** ```{e}```", quote=True)
@@ -56,7 +57,7 @@ def _revoke(client, message):
 async def _token(client, message):
   token = message.text.split()[-1]
   WORD = len(token)
-  if WORD == 62 and token[1] == "/":
+  if WORD == 57 and token[1] == "/":
     creds = None
     global flow
     if flow:
