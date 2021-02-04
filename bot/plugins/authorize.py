@@ -54,7 +54,7 @@ def _revoke(client, message):
   user_id = message.from_user.id
   try:
     gDriveDB._clear(user_id)
-    LOGGER.info(f'Revoke:{user_id}')
+    LOGGER.info(f'Revoked:{user_id}')
     message.reply_text(Messages.REVOKED, quote=True)
   except Exception as e:
     message.reply_text(f"**ERROR:** ```{e}```", quote=True)
