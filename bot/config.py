@@ -16,7 +16,7 @@ class BotCommands:
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
   EmptyTrash = ['emptyTrash']
-  Ytdl = ['ytdl']
+  YtDl = ['ytdl']
 
 class Messages:
     START_MSG = "**Hi there {}.**\n\n**I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.**\n\n**You can know more from /help.**"
@@ -27,7 +27,7 @@ class Messages:
         
         f"**Authenticating Google Drive**\n\n**Send the /{BotCommands.Authorize[0]} commmand and you will receive a URL, visit URL and follow the steps and send the received code here. Use /{BotCommands.Revoke[0]} to revoke your currently logged Google Drive Account.**\n\n**Note: I will not listen to any command or message (except /{BotCommands.Authorize[0]} command) until you authorize me. So, Authorization is mandatory!**",
         
-        f"**Direct Links**\n\n**Send me a direct download link for a file and i will download it on my server and Upload it to your Google Drive Account. You can rename files before uploading to GDrive Account. Just send me the URL and new filename separated by ' | '.**\n\n**Examples:**\n```https://example.com/AFileWithDirectDownloadLink.mkv | New FileName.mkv```\n\n**Telegram Files**\n**To Upload telegram files in your Google drive Account just send me the file and i will download and upload it to your Google Drive Account. Note: Telegram Files Downloading are slow. it may take longer for big files.**\n\n**YouTube-DL Support**\n**Download files via youtube-dl.\nUse /{BotCommands.Ytdl[0]} (YouTube Link/YouTube-DL Supported site link)**",
+        f"**Direct Links**\n\n**Send me a direct download link for a file and i will download it on my server and Upload it to your Google Drive Account. You can rename files before uploading to GDrive Account. Just send me the URL and new filename separated by ' | '.**\n\n**Examples:**\n```https://example.com/AFileWithDirectDownloadLink.mkv | New FileName.mkv```\n\n**Telegram Files**\n**To Upload telegram files in your Google drive Account just send me the file and i will download and upload it to your Google Drive Account. Note: Telegram Files Downloading are slow. it may take longer for big files.**\n\n**YouTube-DL Support**\n**Download files via youtube-dl.\nUse /{BotCommands.YtDl[0]} (YouTube Link/YouTube-DL Supported site link)**",
         
         f"**Custom Folder for Upload**\n\n**Want to upload in custom folder or in** **TeamDrive** ?\n**Use /{BotCommands.SetFolder[0]} (Folder URL) to set custom upload folder.\nAll the files are uploaded in the custom folder you provide.**",
         
