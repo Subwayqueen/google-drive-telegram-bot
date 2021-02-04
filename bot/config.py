@@ -31,7 +31,7 @@ class Messages:
         
         f"**Custom Folder for Upload**\n\n**Want to upload in custom folder or in** **TeamDrive** ?\n**Use /{BotCommands.SetFolder[0]} (Folder URL) to set custom upload folder.\nAll the files are uploaded in the custom folder you provide.**",
         
-        f"**Delete Google Drive Files**\n\n**Delete google drive files. Use /{BotCommands.Delete[0]} (File/Folder URL) to delete file.\nYou can also empty trash files use /{BotCommands.EmptyTrash[0]}\nNote: Files are deleted permanently. This process cannot be undone.\n\nCopy Google Drive Files\n\nYes, Clone or Copy Google Drive Files.\nUse /{BotCommands.Clone[0]} (File id / Folder id or URL) to copy Google Drive Files in your Google Drive Account.**",
+        f"**Delete Google Drive Files**\n\n**Delete google drive files. Use /{BotCommands.Delete[0]} (File/Folder URL) to delete file or reply /{BotCommands.Delete[0]} to bot message..\nYou can also empty trash files use /{BotCommands.EmptyTrash[0]}\nNote: Files are deleted permanently. This process cannot be undone.\n\nCopy Google Drive Files\n\nYes, Clone or Copy Google Drive Files.\nUse /{BotCommands.Clone[0]} (File id / Folder id or URL) to copy Google Drive Files in your Google Drive Account.**",
         
         "**Rules & Precautions**\n\n**1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.**",
         
